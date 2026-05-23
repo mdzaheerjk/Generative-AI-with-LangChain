@@ -1,0 +1,42 @@
+[
+  {
+    "content": "Transformer models were introduced in the paper 'Attention Is All You Need' by Vaswani et al. in 2017. The architecture relies on self-attention mechanisms rather than recurrent or convolutional neural networks. This design allows for more parallelization during training and better handling of long-range dependencies in text.",
+    "metadata": {
+      "source": "AI_Textbook.pdf",
+      "page": 42,
+      "topic": "transformer_architecture"
+    }
+  },
+  {
+    "content": "BERT (Bidirectional Encoder Representations from Transformers) was developed by Google AI Language team in 2018. It is pre-trained using masked language modeling and next sentence prediction tasks. BERT is designed to pre-train deep bidirectional representations by jointly conditioning on both left and right context in all layers.",
+    "metadata": {
+      "source": "NLP_Models_Survey.pdf",
+      "page": 137,
+      "topic": "bert_model"
+    }
+  },
+  {
+    "content": "GPT (Generative Pre-trained Transformer) models are autoregressive language models that use transformer-based neural networks. Unlike BERT, which is bidirectional, GPT models are unidirectional and predict the next token based on previous tokens. The original GPT was introduced by OpenAI in 2018, followed by GPT-2 in 2019 and GPT-3 in 2020, each significantly larger than its predecessor.",
+    "metadata": {
+      "source": "Large_Language_Models.pdf",
+      "page": 89,
+      "topic": "gpt_models"
+    }
+  },
+  {
+    "content": "Retrieval-Augmented Generation (RAG) combines a retrieval system with a text generator. The retriever fetches relevant documents from a knowledge base, and these documents are then provided as context to the generator. RAG models can be fine-tuned end-to-end and leverage large pre-trained models like BART or T5 for generation. This approach helps ground the generated text in factual information.",
+    "metadata": {
+      "source": "Information_Retrieval_Advances.pdf",
+      "page": 215,
+      "topic": "rag_systems"
+    }
+  },
+  {
+    "content": "Vector databases store high-dimensional vectors and efficiently perform similarity searches. Popular vector databases include Pinecone, Milvus, and FAISS. They use algorithms like HNSW (Hierarchical Navigable Small World) or IVF (Inverted File Index) to enable fast approximate nearest neighbor search. These databases are essential for scaling embedding-based retrieval systems to large document collections.",
+    "metadata": {
+      "source": "Vector_Search_Systems.pdf",
+      "page": 73,
+      "topic": "vector_databases"
+    }
+  }
+]
