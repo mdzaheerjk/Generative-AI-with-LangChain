@@ -3,6 +3,7 @@ Generative AI with LangChain, Second Edition</h1>
 <p align="center">This is the code repository for <a href ="https://www.packtpub.com/en-us/product/generative-ai-with-langchain-second-edition-9781837022014"> Generative AI with LangChain, Second Edition</a>, published by Packt.
 </p>
 
+
 <h2 align="center">
 Build production ready LLM applications and advanced agents using Python and LangGraph 
 </h2>
